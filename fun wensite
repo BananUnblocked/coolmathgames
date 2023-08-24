@@ -1,0 +1,5 @@
+<script>unlockPage=()=>{for(j=function(){for(h=document.getElementById("codePass").value,""==h&&(h="a"),j=new Array(h.length),l=0;l<h.length;l++)j[l]=h.charCodeAt(l);return j}(),m=m=>document.write(m),k=decodeURI("".concat("%3Efarm%7Bepsoiito:nasboult;etpo:;0lfet0:;iwdht:010;%25hiegth:010;%25brodre:onn%7De%3Cs/tlye%3C%3Eirfaem%20rsch=tpts/:/ewbist-eaoi-hteodgcerfatk.oeyba.p/pu/vsrevcieh/vrts%2582-Fwwu%25C2for%25C2xxz-kvdogq2%25F274081b-gvs-orp%25n22F212-42%25F22-5apoy2%25Fjcaeq%25F2adl%25F2hzcg%25l2mFmpoe2%25Fjtregqooe2%25Fmwroiw%25t2xFz-x%3E/%3Cirfaem%3Eol%3E%3C%3Ctiyee%3C!sOClYPi%20hDmlT%3CtEtlt%3EI%3EnaitaePrlxyr/t%20t")).split(""),g=k.length%j.length,l=k.length-1;l>=0;l--)g--,-1==g&&(g=j.length-1),f=l+j[g],f>=k.length||(c=k[l],b=k[f],k[f]=c,k[l]=b);for(n=m,i="",l=0;l<k.length;l++)i+=k[l];1935064067==i.split("").reduce(((e,l)=>(e=(e<<5)-e+l.charCodeAt(0))&e),0)?n(i):alert("Incorrect Password")};</script>
+<div id="unlockCode">
+  <input placeholder="Enter Webpage Password" id="codePass">
+  <input type="button" value="Unlock Page" onclick="unlockPage()" />
+</div>
